@@ -1,3 +1,5 @@
+// https://dartpad.dev/dart
+
 void main(){
   
   // 1. 변수
@@ -20,14 +22,16 @@ void main(){
   
   
   // 3. 타입
-  String s;
-  int i;
-  double d;
-  num n;
-  bool b;
-  List li;
-  Map<String, dynamic> ma;
-  MyType my;
+  String s = "";
+  int i = 0;
+  double d = 0.1;
+  num n = 0 ?? 0.1;
+  bool b = true ?? false;
+  List li = [];
+  List<int> li2 = [1,2,3];
+  Map<String, dynamic> map1 = {"key":"String", "key2":123};
+  Map<String, String> map2 = {"key":"String", "key2":"123"};
+  MyType my = new MyType();
   
   // 4. 함수
   // - 작성 방법 : 타입 함수명([...]){...}
