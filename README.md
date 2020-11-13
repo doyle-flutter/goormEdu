@@ -1,7 +1,7 @@
 # goormEdu
 구름EDU ( 2020년 9월 20일 오픈 )
 
-### Dart 문법 기본 [바로가기](https://github.com/doyle-flutter/goormEdu/blob/main/dart.dart)
+### Dart [바로가기](https://github.com/doyle-flutter/goormEdu/blob/main/dart.dart)
 - [x] 작성 방법
 - [x] 변수
 - [x] 상수
