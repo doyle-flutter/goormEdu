@@ -11,6 +11,16 @@
 - [x] 반복문 및 조건문
 - [x] * Future
 
+### JavaScript
+- [ ] 작성 방법
+- [ ] 변수
+- [ ] 상수
+- [ ] 타입
+- [ ] 함수
+- [ ] 클래스
+- [ ] 반복문 및 조건문
+- [ ] * Promise
+
 ### Flutter [바로가기](https://github.com/doyle-flutter/goormEdu/tree/main/flutter)
 - [x] 메인 화면
 - [x] 상세 페이지
