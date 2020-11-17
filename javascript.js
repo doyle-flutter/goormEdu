@@ -1,5 +1,3 @@
-// 작성 중
-
 //// 변수 : 변수 선언시 타입을 지정하지 않고 사용 가능하며, var 키워드 사용시 호이스팅에 유의해야합니다
 var value = 1;
 value = "2";
@@ -99,41 +97,6 @@ new Ms(123).outPutA(); // 123
 var ms2 = new Ms(321);
 ms2.outPutA(); // 321
 
-
-//// DOM & BOM
-/////////////////////// D.O.M
-// 문서 Document 관련 API
-// 생성되어있는 Tag 사용
-
-// - HTML
-// <div id='i1' class='c1 c2 c3'></div>
-// <div id='i2' class='c1 c2 c3'></div>
-
-// - JS(DOM)
-// --- 중복될 수 없는 ID 값을 갖고 찾기
-// let i1 = document.getElementById('i1');
-// let i2 = document.getElementById('i2');
-// --- 중복 가능한 Class 값을 갖고 찾기
-// let c1 = document.getElementsByClassName('c1')[0];
-// let c2 = document.getElementsByClassName('c1')[1];
-
-// DOM 주요 3가지
-// 1. TAG를 생성하여 원하는 위치에 주입 가능
-// 2. TAG의 특정 값, 속성, 스타일 등 제어 가능
-// 3. TAG의 이벤트를 제어
-// ... 등
-
-/////////////////////// B.O.M
-// 브라우져 Browser 관련 API
-// BOM 주요 5가지
-// 1. 브라우져 창 제어
-// 2. 스크롤 제어
-// 3. 팝업
-// 4. 클라이언트 환경
-// 5. URL 제어
-// ... 등
-
-
 //// Promise (1)
 
 async function afunc() {
@@ -196,3 +159,38 @@ let futureContext = async () => {
 };
 
 futureContext();
+
+
+//// + @
+//// DOM & BOM
+/////////////////////// D.O.M
+// 문서 Document 관련 API
+// 생성되어있는 Tag 사용
+
+// - HTML
+// <div id='i1' class='c1 c2 c3'></div>
+// <div id='i2' class='c1 c2 c3'></div>
+
+// - JS(DOM)
+// --- 중복될 수 없는 ID 값을 갖고 찾기
+// let i1 = document.getElementById('i1');
+// let i2 = document.getElementById('i2');
+// --- 중복 가능한 Class 값을 갖고 찾기
+// let c1 = document.getElementsByClassName('c1')[0];
+// let c2 = document.getElementsByClassName('c1')[1];
+
+// DOM 주요 3가지
+// 1. TAG를 생성하여 원하는 위치에 주입 가능
+// 2. TAG의 특정 값, 속성, 스타일 등 제어 가능
+// 3. TAG의 이벤트를 제어
+// ... 등
+
+/////////////////////// B.O.M
+// 브라우져 Browser 관련 API
+// BOM 주요 5가지
+// 1. 브라우져 창 제어
+// 2. 스크롤 제어
+// 3. 팝업
+// 4. 클라이언트 환경
+// 5. URL 제어
+// ... 등
