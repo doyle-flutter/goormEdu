@@ -1,5 +1,5 @@
 # goormEdu
-구름EDU ( 2020년 9월 20일 오픈 )
+구름EDU ( 2020년 11월 20일 오픈 )
 
 ### Dart [바로가기](https://github.com/doyle-flutter/goormEdu/blob/main/dart.dart)
 - [x] 작성 방법
