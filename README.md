@@ -12,14 +12,13 @@
 - [x] * Future
 
 ### JavaScript
-- [ ] 작성 방법
-- [ ] 변수
-- [ ] 상수
-- [ ] 타입
-- [ ] 함수
-- [ ] 클래스
-- [ ] 반복문 및 조건문
-- [ ] * Promise
+- [x] 변수
+- [x] 상수
+- [x] 타입
+- [x] 함수
+- [x] 클래스
+- [x] 반복문 및 조건문
+- [x] * Promise
 
 ### Flutter [바로가기](https://github.com/doyle-flutter/goormEdu/tree/main/flutter)
 - [x] 메인 화면
